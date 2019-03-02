@@ -1,0 +1,129 @@
+/* Install VS Code extension: 
+Lyrad Digital - "Flexbox In Depth Course" snippets for Visual Studio Code 
+
+Lyrad Digital - Flexbox In Depth Course snippets for Visual Studio Code
+Visual Studio Code extension that contains all snippets used in Lyrad Digital's "Flexbox In Depth" course.
+
+Gif
+
+Usage
+To use the course snippets, open a HTML or CSS file, and start typing ld-fc-, followed by pressing Ctrl+Space. A list of snippets will show up
+
+Chat Application Code Snippets
+Below is the list of all the snippets in this extension. Each prefix starts with ld-fc-app, which indicates it's part of the Lyrad Digital Flexbox Course chat application example.
+
+Prefix	Video	Description
+ld-fc-app-chat-container-styles	Building the basic shell	CSS for styling the main chat shell
+ld-fc-app-chat-container-content-styles	Building the basic shell	CSS for the sidebar and the chat window
+ld-fc-app-side-bar-content-styles	Building the side bar	CSS for all content in the sidebar
+ld-fc-app-chat-window-content-styles	Building the chat window	CSS for all content in the chat window
+ld-fc-app-chat-title-contents	Building the chat title section	Adds markup for the the chat title section
+ld-fc-app-chat-title-content-styles	Building the chat title section	CSS to style the trash logo in the chat title
+ld-fc-app-chat-form-content	Building the chat form	Adds markup for the the chat form section
+ld-fc-app-chat-form-content-styles	Building the chat form	CSS to style the attachment logo in the chat form
+ld-fc-app-conversation-item-styles	Build an individual conversation item	CSS to style the individual conversation item
+ld-fc-app-more-conversation-items	Adding more conversation items	Adds markup representing all the remaining conversations in the conversation list
+ld-fc-app-chat-message-initial-styles	Building chat messages	CSS to style the basic speech bubbles for both yours and ther other person's messages
+ld-fc-app-chat-message-image-styles	Adding chat profile pictures	CSS to style the image allocated to ther other person's speech bubbles
+ld-fc-app-remaining-chat-messages	The finishing touches	Adds markup to add the remaining messages to the chat window
+Release Notes: 1.0 0
+Added: Initial release of the snippets for the chat application example in the Lyrad Digital Flexbox In Depth course.
+*/
+
+	/* 	LECTURE 04 	*/
+.container {
+    display: flex;
+}
+
+.inline-container {
+    display: inline-flex;
+}
+
+	/* 	LECTURE 05	 */
+.row {
+    flex-direction: row;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
+}
+
+	/*	LECTURE 06 	*/
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+	/*	LECTURE 07 	*/ 
+.row-wrapreverse {
+    flex-flow: row wrap-reverse;
+}
+
+.column-nowrap {
+    flex-flow: column nowrap;
+}
+
+.rowreverse-wrap {
+    flex-flow: row-reverse wrap;
+}
+
+.columnreverse-wrap {
+    flex-flow: column-reverse wrap;
+}
+
+	/*	LECTURE 08	*/
+.flex-start-container {
+    justify-content: flex-start;
+}
+
+.flex-end-container {
+    justify-content: flex-end;
+}
+
+.center-container {
+    justify-content: center;
+}
+
+.space-around-container {
+    justify-content: space-around;
+}
+
+.space-between-container {
+    justify-content: space-between;
+}
+
+	/*	LECTURE 09	*/
+.stretch-container {
+    align-items: stretch;
+}
+
+.flex-start-container {
+    align-items: flex-start;
+}
+
+.flex-end-container {
+    align-items: flex-end;
+}
+
+.center-container {
+    align-items: center;
+}
+
+.baseline-container {
+    align-items: baseline;
+}
